@@ -7,5 +7,14 @@ ES6에 추가된 메서드들을 활용해서 새로운 방식으로 문제를 �
 1) for문에 너무 익숙하다.
 for in 이나 reduce등 다른 반복문에 익숙하지 못함.
 
-2) string관련 메서드들을 잘 모른다.
-3) sort와 filter의 정확한 원리
+reduce
+const array1 = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = array1.reduce((accumulator, currentValue) => accumulator + currentValue, initialValue);
+
+console.log(sumWithInitial); // Expected output: 10
+
+3) string관련 메서드들을 잘 모른다.
+4) sort와 filter의 정확한 원리
