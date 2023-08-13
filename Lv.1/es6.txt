@@ -1,0 +1,21 @@
+const arr = [1, 2, 3, 4, 5];
+
+for (const element of arr) {
+  console.log(element); // 배열의 각 요소 출력
+}
+
+const arr = [1, 2, 3, 4, 5];
+
+arr.forEach(element => {
+  console.log(element); // 배열의 각 요소 출력
+});
+
+const person = {
+  name: 'John',
+  age: 30,
+  gender: 'male',
+};
+
+for (const key in person) {
+  console.log(key, person[key]); // 객체의 속성과 값을 출력
+}
